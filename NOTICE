@@ -7,3 +7,10 @@ Nova Helper распространяется по лицензии MIT (LICENSE)
 - Значок программы — Unandoriz
 
 Проект не связан с администрацией Nova RP / Grand RP и Rockstar Games.
+
+Пакет ассистента (скачивается отдельно, в программу не встроен):
+- llama.cpp и whisper.cpp — MIT, The ggml authors, https://github.com/ggml-org
+- Модель Qwen3.5-2B — Apache License 2.0, Alibaba Cloud (Qwen Team)
+- Модель Whisper base — MIT, OpenAI
+- libomp — Apache-2.0 WITH LLVM-exception
+Тексты лицензий лежат в самом пакете (папка LICENSES).
