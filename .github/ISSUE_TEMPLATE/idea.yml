@@ -1,0 +1,11 @@
+name: Предложение
+description: Чего не хватает на смене
+labels: [идея]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: Что добавить или изменить
+      description: Какая ситуация в игре, чем поможет.
+    validations:
+      required: true

@@ -1,0 +1,35 @@
+name: Ошибка
+description: Что-то работает не так
+labels: [ошибка]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: Что случилось
+      description: Что делали, что ожидали, что получилось вместо этого.
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Версия Nova Helper
+      description: Настройки → Программа.
+      placeholder: 1.0.0
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Где
+      options:
+        - Памятка / поиск
+        - Обвинение
+        - Отправка в чат игры
+        - Окно поверх игры / горячие клавиши
+        - Обновления
+        - Другое
+  - type: textarea
+    id: extra
+    attributes:
+      label: Скриншот или подробности
+      description: Windows 10/11, режим экрана в игре, текст ошибки.
